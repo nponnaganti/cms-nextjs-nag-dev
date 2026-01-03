@@ -1,0 +1,31 @@
+git clone https://github.com/nponnaganti/cms-nextjs-nag-dev.git
+----------globally---------------------------------------------------
+npm install -g yarn
+npm install -g vercel
+----------project-level-----------------------------------------------
+If you want to use Yarn, delete package-lock.json ( vice-versa)
+del package-lock.json
+yarn -v
+ping registry.npmjs.org
+yarn config set registry https://registry.npmjs.org/
+yarn config set network-timeout 600000
+yarn cache clean
+yarn install
+yarn dev
+-----------------------------------------------------------------------
+Vercel CLI requires Node.js (version 12 or higher)
+node -v
+npm install -g vercel
+vercel --version
+vercel login
+vercel link
+vercel env pull
+-------------------------------------------------------------------------
+PS C:\Nagendra\cms-nextjs-nag-dev> yarn dev
+yarn run v1.22.22
+$ next dev
+   ▲ Next.js 16.0.7 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.0.140:3000
+   - Environments: .env.local
+-------------------------------------------------------------------------
