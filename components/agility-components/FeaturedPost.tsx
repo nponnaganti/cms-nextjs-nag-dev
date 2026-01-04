@@ -1,3 +1,4 @@
+console.log(`\x1b[34mSTART: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 import Link from "next/link"
 import { DateTime } from "luxon"
 import { stripHtml } from "string-strip-html"
@@ -116,4 +117,5 @@ const FeaturedPost = async ({ module, languageCode }: UnloadedModuleProps) => {
   )
 }
 
+console.log(`\x1b[32mEND  : ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 export default FeaturedPost

@@ -1,4 +1,5 @@
 "use client"
+console.log(`\x1b[34mSTART: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 import {ContentItem} from "@agility/content-fetch"
 import OutputField from "./OutputField"
 import RawContentItem from "./RawContentItem"
@@ -33,3 +34,4 @@ export default function OutputNestedContentItem({contentItem}: Props) {
 		</div>
 	)
 }
+console.log(`\x1b[32mEND  : ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);

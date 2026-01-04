@@ -1,5 +1,5 @@
 "use client"
-
+console.log(`\x1b[34mSTART SiteHeader: $(Get-Date -Format 'ddd MMM dd yyyy HH:mm:ss') $($file.FullName)\x1b[0m`);
 import React, { useState, useEffect } from "react"
 import Link from "next/link"
 import { IHeaderData } from "lib/cms-content/getHeaderContent"
@@ -206,5 +206,5 @@ const SiteHeader = ({ header }: Props) => {
 		</header>
 	)
 }
-
+console.log(`\x1b[34mSTART SiteHeader: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 export default SiteHeader

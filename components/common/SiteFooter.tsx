@@ -1,3 +1,4 @@
+console.log(`\x1b[34mSTART: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 import Image from "next/image"
 import React from "react"
 import { FaXTwitter, FaInstagram, FaSlack, FaYoutube } from "react-icons/fa6"
@@ -89,5 +90,5 @@ const SiteFooter = () => {
 		</footer>
 	)
 }
-
+console.log(`\x1b[32mEND  : ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 export default SiteFooter

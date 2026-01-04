@@ -1,3 +1,4 @@
+console.log(`\x1b[34mSTART: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 import {Module, UnloadedModuleProps} from "@agility/nextjs"
 import InlineError from "components/common/InlineError"
 import OutputContentItem from "components/common/output-content-item/OutputContentItem"
@@ -19,4 +20,5 @@ const NoComponentFound = async ({module, languageCode, isDevelopmentMode, isPrev
 	}
 }
 
+console.log(`\x1b[32mEND  : ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 export default NoComponentFound

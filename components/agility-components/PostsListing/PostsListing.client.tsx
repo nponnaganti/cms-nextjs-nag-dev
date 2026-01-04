@@ -1,5 +1,5 @@
 "use client"
-
+console.log(`\x1b[34mSTART: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 import React, { use, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
@@ -99,4 +99,5 @@ const PostListingClient = ({ posts, locale, sitemap, getNextPosts }: Props) => {
 	)
 }
 
+console.log(`\x1b[32mEND  : ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 export default PostListingClient

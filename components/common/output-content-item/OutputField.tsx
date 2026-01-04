@@ -1,3 +1,4 @@
+console.log(`\x1b[34mSTART: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 import {AgilityPic, renderHTML} from "@agility/nextjs"
 import OutputNestedContentItem from "./OutputNestedContentItem"
 import {useEffect, useMemo, useState} from "react"
@@ -109,3 +110,4 @@ export default function OutputField({fieldName, fieldValue}: Props) {
 		</div>
 	)
 }
+console.log(`\x1b[32mEND  : ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);

@@ -1,3 +1,4 @@
+console.log(`\x1b[34mSTART: ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
 import {useState} from "react"
 import {FaCaretDown} from "react-icons/fa6"
 import {default as cn} from "classnames"
@@ -33,3 +34,4 @@ export default function RawContentItem({contentItem}: Props) {
 		</>
 	)
 }
+console.log(`\x1b[32mEND  : ${new Date().toString().slice(0, 24)} ${__filename}\x1b[0m`);
