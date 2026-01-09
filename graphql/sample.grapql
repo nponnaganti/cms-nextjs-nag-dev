@@ -1,0 +1,17 @@
+query {
+  posts {
+      properties{
+        itemOrder
+        definitionName
+      }
+  }
+  ag_pages {
+    title
+    pageID
+  }
+}
+
+
+{
+  "pageID" : "2"
+}
