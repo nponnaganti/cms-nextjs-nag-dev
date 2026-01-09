@@ -32,3 +32,11 @@ $ next dev
 
 Logging set up
 step01: yarn add --dev @types/node
+
+
+npx storybook@latest init
+yarn storybook
+Storybook ready!                                   │
+│ │                                                      │
+│ │   - Local:             http://localhost:6006/        │
+│ │   - On your network:   http://192.168.0.140:6006/ 
