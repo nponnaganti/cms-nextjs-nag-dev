@@ -32,3 +32,5 @@ $ next dev
 
 Logging set up
 step01: yarn add --dev @types/node
+Component 01 : Text Content ( Single-Line & Multi-Line fields) || Branch Name - feature-nag-component-one
+Component 02 : Explore All Fields (Agility CMS) || Branch Name - feature-nag-component-two
