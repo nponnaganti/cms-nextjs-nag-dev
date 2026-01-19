@@ -1,0 +1,8 @@
+query cloudcmsGetUrlRedirections {
+  ag_urlredirections {
+    id
+    originUrl
+    destinationUrl
+    statusCode
+  } 
+}
