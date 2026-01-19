@@ -1,0 +1,18 @@
+query cloudcmsGetSitemapFlat {
+  ag_sitemapflat {
+    title
+    name
+    pageID
+    menuText
+    visible {
+      menu
+      sitemap
+    }
+    path
+    redirecturl {
+      url
+      target
+    }
+    isFolder
+  }   
+}
