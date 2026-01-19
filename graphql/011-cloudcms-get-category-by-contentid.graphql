@@ -1,0 +1,23 @@
+query cloudcmsGetCategoryByContentID($contentID: Int!) {
+  categories(contentID: $contentID) {
+    contentID
+    properties {
+      versionID
+      referenceName
+      modified
+      state
+      definitionName
+      itemOrder
+    }
+    seo {
+      metaDescription
+      metaKeywords
+      metaHTML
+      menuVisible
+      sitemapVisible
+    }
+    fields {
+      title
+    }
+  } 
+}
