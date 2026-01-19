@@ -1,0 +1,12 @@
+query cloudcmsAllPages {
+  ag_pages(take: 1, skip: 0) {
+    pageID
+    title
+    path
+    visible {
+      menu
+      sitemap
+    } 
+    templateName
+  }
+}
