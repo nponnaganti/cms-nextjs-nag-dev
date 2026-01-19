@@ -1,0 +1,12 @@
+query cloudcmsGetPageById($pageID: Int!) {
+  ag_pages(pageID: $pageID) {
+    pageID
+    title
+    path
+    visible {
+      menu
+      sitemap
+    }
+    templateName
+  }
+}
