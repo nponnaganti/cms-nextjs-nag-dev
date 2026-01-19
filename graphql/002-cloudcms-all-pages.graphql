@@ -1,5 +1,5 @@
 query cloudcmsAllPages {
-  ag_pages(take: 1, skip: 0) {
+  ag_sitemapflat(take: 1, skip: 0) {
     pageID
     title
     path
