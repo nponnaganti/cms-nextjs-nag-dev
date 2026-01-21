@@ -1,0 +1,7 @@
+query cloudcmsGetPagesByName($filter: String!) {
+  ag_pages(filter: $filter) {
+    pageID
+    name
+    templateName
+  }
+}
