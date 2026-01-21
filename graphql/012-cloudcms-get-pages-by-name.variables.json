@@ -1,0 +1,4 @@
+{
+  "_comment": "012-cloudcms-get-pages-by-name.graphql",
+  "filter": "name[eq]\"home\""
+}
