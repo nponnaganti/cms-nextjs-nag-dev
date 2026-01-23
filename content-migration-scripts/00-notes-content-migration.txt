@@ -15,3 +15,9 @@ Step 04: under nagComponentEmployees, add Linked Content field and assign Step 0
 Step 05: Create page: employee and add two Components ( nagComponentEmployees, Heading)
 -------------------------------------------------------------------------------------------
 render Agility CMS employee content using GraphQL in Next.js
+
+============================================================================================
+Before Deploying to VERCEL, Go to Vercel Dashboard and add Environment Variables
+AGILITY_API_GRAPHQL_FETCH_KEY
+AGILITY_CMS_GRAPHQL_ENDPOINT
+============================================================================================
