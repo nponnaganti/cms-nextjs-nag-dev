@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------------------
+workshop: content migration from SQL to Agility CMS
+-------------------------------------------------------------------------------------------
+Step 00: Login to Agility CMS and select your Instance   --> MySite
+Step 01:(EMPLOYEE) Create Content Model (Data Template)  --> Employee
+        Employee Data Template fields 
+        Number field   - EmployeeId
+        Text field     - Name
+        Checkbox field - IsAccountLocked
+        Date field     - DateOfJoining
+Step 02:(EMPLOYEES) under Content, Create Content Group  --> Employees
+-------------------------------------------------------------------------------------------
+Step 03: Go to Component Models and Create Component:    --> nagComponentEmployees
+Step 04: under nagComponentEmployees, add Linked Content field and assign Step 02: Employees
+Step 05: Create page: employee and add two Components ( nagComponentEmployees, Heading)
+-------------------------------------------------------------------------------------------
+render Agility CMS employee content using GraphQL in Next.js

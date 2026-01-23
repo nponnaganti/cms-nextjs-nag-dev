@@ -1,0 +1,122 @@
+[
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "101",
+      "name": "nag A",
+      "dateOfJoining": "2019-01-01",
+      "isAccountLocked": true
+    }
+  },
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "102",
+      "name": "nag B",
+      "dateOfJoining": "2020-02-02",
+      "isAccountLocked": false
+    }
+  },
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "103",
+      "name": "nag C",
+      "dateOfJoining": "2021-03-03",
+      "isAccountLocked": true
+    }
+  },
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "104",
+      "name": "nag D",
+      "dateOfJoining": "2022-04-04",
+      "isAccountLocked": false
+    }
+  },
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "105",
+      "name": "nag E",
+      "dateOfJoining": "2023-05-05",
+      "isAccountLocked": true
+    }
+  },
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "106",
+      "name": "nag F",
+      "dateOfJoining": "2024-06-06",
+      "isAccountLocked": false
+    }
+  },
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "107",
+      "name": "nag G",
+      "dateOfJoining": "2025-07-07",
+      "isAccountLocked": true
+    }
+  },
+  {
+    "contentID": -1,
+    "properties": {
+      "state": 1,
+      "referenceName": "Employees",
+      "definitionName": "Employee",
+      "itemOrder": 0
+    },
+    "fields": {
+      "employeeId": "108",
+      "name": "nag H",
+      "dateOfJoining": "2026-08-08",
+      "isAccountLocked": false
+    }
+  }
+]

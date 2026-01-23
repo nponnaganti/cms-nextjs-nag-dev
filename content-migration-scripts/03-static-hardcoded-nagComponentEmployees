@@ -1,0 +1,44 @@
+const employeesResponse = {
+  data: {
+    employees: [
+      {
+        contentID: 182,
+        fields: {
+          employeeId: 101,
+          name: "nag A",
+          isAccountLocked: true,
+          dateOfJoining: "1/1/2019 5:00:00 AM",
+        },
+      },
+      {
+        contentID: 183,
+        fields: {
+          employeeId: 102,
+          name: "nag B",
+          isAccountLocked: false,
+          dateOfJoining: "2/2/2020 5:00:00 AM",
+        },
+      },
+    ],
+  },
+}
+
+const nagComponentEmployees = () => {
+  const employees = employeesResponse.data.employees
+
+  return (
+    <section>
+      {employees.map((emp) => (
+        <div key={emp.contentID}>
+          <p>Employee ID: {emp.fields.employeeId}</p>
+          <p>Name: {emp.fields.name}</p>
+          <p>Account Locked: {emp.fields.isAccountLocked ? "Yes" : "No"}</p>
+          <p>Date Of Joining: {emp.fields.dateOfJoining}</p>
+          <hr />
+        </div>
+      ))}
+    </section>
+  )
+}
+
+export default nagComponentEmployees
