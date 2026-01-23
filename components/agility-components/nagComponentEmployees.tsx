@@ -32,7 +32,7 @@ const nagComponentEmployees = async () => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "apiKey": process.env.AGILITY_API_GRAPHQL_FETCH_KEY!,
+      "apiKey": process.env.AGILITY_API_KEY!,
     },
     body: JSON.stringify({ query: EMPLOYEES_GRAPHQL_QUERY }),
     cache: "no-store", // preview-safe
