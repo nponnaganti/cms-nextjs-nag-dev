@@ -1,0 +1,47 @@
+query cloudcmsGetPageById($pageID: Int!) {
+  ag_pages(pageID: $pageID) {
+    pageID
+    name
+    path
+    title
+    menuText
+    pageType
+    templateName
+    redirectUrl
+    securePage
+    excludeFromOutputCache
+    visible {
+      menu
+      sitemap
+    }
+    seo {
+      metaDescription
+      metaKeywords
+      metaHTML
+      menuVisible
+      sitemapVisible
+    }
+    scripts {
+      excludedFromGlobal
+      top
+      bottom
+    }
+    dynamic {
+      referenceName
+      fieldName
+      titleFormula
+      menuTextFormula
+      pageNameFormula
+      visibleOnMenu
+      visibleOnSitemap
+    }
+    properties {
+      state
+      modified
+      versionID
+    }
+    zones {
+      module
+    }
+  } 
+}

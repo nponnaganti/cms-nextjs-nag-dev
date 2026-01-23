@@ -1,0 +1,23 @@
+query cloudcmsGetAllCategories {
+  categories(take: 1, skip: 0) {
+    contentID
+    properties {
+      versionID
+      referenceName
+      modified
+      state
+      definitionName
+      itemOrder
+    }
+    seo {
+      metaDescription
+      metaKeywords
+      metaHTML
+      menuVisible
+      sitemapVisible
+    }
+    fields {
+      title
+    }
+  } 
+}

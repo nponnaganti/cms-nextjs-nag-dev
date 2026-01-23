@@ -1,0 +1,20 @@
+query {
+  posts(take:1 skip:0){
+    contentID
+    fields {
+      title
+      category {
+        contentID
+        ...categoryFields
+      }
+      categoryID
+    }
+  } 
+}
+
+fragment categoryFields on category {
+  contentID
+  fields {
+  title
+  }
+}

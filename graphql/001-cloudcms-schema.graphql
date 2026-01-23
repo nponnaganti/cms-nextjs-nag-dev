@@ -1,0 +1,13 @@
+query cloudcmsSchema {
+  __schema {
+    queryType {
+      fields {
+        name
+        args {
+          name
+          description
+        }
+      }
+    }
+  }
+}

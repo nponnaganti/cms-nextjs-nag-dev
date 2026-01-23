@@ -1,0 +1,59 @@
+query cloudcmsGetPostByContentID($contentID: Int!) {
+  posts(contentID: $contentID) {
+    contentID
+    properties {
+      versionID
+      referenceName
+      modified
+      state
+      definitionName
+      itemOrder
+    }
+    seo {
+      metaDescription
+      metaKeywords
+      metaHTML
+      menuVisible
+      sitemapVisible
+    }
+    fields {
+      title
+      slug
+      date
+      category {
+        contentID
+        properties {
+          versionID
+          referenceName
+          modified
+          state
+          definitionName
+          itemOrder
+        } 
+        seo {
+          metaDescription
+          metaKeywords
+          metaHTML
+          menuVisible
+          sitemapVisible
+        } 
+        fields {
+          title
+        } 
+      }
+      image {
+        label
+        url
+        fileSize
+        height
+        width
+        pixelHeight
+        pixelWidth
+        target
+      }
+      content
+      authorID
+      categoryID
+    }
+  } 
+}

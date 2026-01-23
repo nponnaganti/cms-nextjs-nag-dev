@@ -1,0 +1,11 @@
+{
+  "_description": "cloudcmsGetAllPagesByTemplateName",
+  "_notes_o1": "Agility CMS GraphQL only respects direction: desc (lowercase).",
+  "_notes_o2": "ASC, DESC, or asc(lowercase) are silently ignored.",
+  "_notes_o3": "Use client-side sorting if ascending order is required.",
+  "take": 10,
+  "skip": 0,
+  "sort": "pageID",
+  "direction": "desc",
+  "filter": "templateName[eq]\"Main Template\""
+}
