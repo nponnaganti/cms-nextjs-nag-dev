@@ -1,0 +1,11 @@
+query cloudcmsGetAllEmployees {
+  employees (take:1) {
+    contentID
+    fields {
+      employeeId
+      name
+      isAccountLocked
+      dateOfJoining
+    }
+  } 
+}

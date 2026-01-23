@@ -34,3 +34,13 @@ Logging set up
 step01: yarn add --dev @types/node
 Component 01 : Text Content ( Single-Line & Multi-Line fields) || Branch Name - feature-nag-component-one
 Component 02 : Explore All Fields (Agility CMS) || Branch Name - feature-nag-component-two
+
+
+-------------------------------------------------------------------------------------------
+git login
+git branch
+git checkout cloudcms-graphql-100-queries
+git fetch origin
+git rebase origin/main
+git push origin cloudcms-graphql-100-queries --force-with-lease
+-------------------------------------------------------------------------------------------
