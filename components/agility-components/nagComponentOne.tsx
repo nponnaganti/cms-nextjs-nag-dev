@@ -35,7 +35,14 @@ const nagComponentOne = async ({ module, languageCode }: UnloadedModuleProps) =>
           <p>{fields.description}</p>
 
           <br />
-          <p>{fields.gitHubBranchName}</p>
+          <p className="mb-4 text-sm text-gray-700">
+            <strong className="text-yellow-600 font-semibold">
+              Code Changes:
+            </strong>{" "}
+            <span className="break-all">
+              {fields.gitHubBranchName}
+            </span>
+          </p>
         </div>
       </div>
     </section>

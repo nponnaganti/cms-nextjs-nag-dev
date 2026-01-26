@@ -32,7 +32,7 @@ const nagComponentEmployees = async () => {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "apiKey": process.env.AGILITY_API_KEY!,
+      "apiKey": process.env.AGILITY_API_GRAPHQL_FETCH_KEY!,
     },
     body: JSON.stringify({ query: EMPLOYEES_GRAPHQL_QUERY }),
     cache: "no-store", // preview-safe
@@ -55,6 +55,22 @@ const nagComponentEmployees = async () => {
       >
         <div className="max-w-(--breakpoint-xl) mx-auto my-0 md:mt-12 lg:mt-5">
 
+          <p className="mb-4 text-sm text-gray-700">
+            <strong className="text-yellow-600 font-semibold">
+              workshop:
+            </strong>{" "}
+            <span className="break-all">
+              content migration from SQL to Agility CMS (Headless Cloud SaaS)
+            </span>
+          </p>
+          <p className="mb-4 text-sm text-gray-700">
+            <strong className="text-yellow-600 font-semibold">
+              feat:
+            </strong>{" "}
+            <span className="break-all">
+              set-up GraphQL-based rendering of Agility CMS content in Next.js
+            </span>
+          </p>
           <p className="mb-4 text-sm text-gray-700">
             <strong className="text-yellow-600 font-semibold">
               Code Changes:
