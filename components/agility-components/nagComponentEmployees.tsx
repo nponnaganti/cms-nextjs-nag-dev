@@ -57,6 +57,22 @@ const nagComponentEmployees = async () => {
 
           <p className="mb-4 text-sm text-gray-700">
             <strong className="text-yellow-600 font-semibold">
+              workshop:
+            </strong>{" "}
+            <span className="break-all">
+              content migration from SQL to Agility CMS (Headless Cloud SaaS)
+            </span>
+          </p>
+          <p className="mb-4 text-sm text-gray-700">
+            <strong className="text-yellow-600 font-semibold">
+              feat:
+            </strong>{" "}
+            <span className="break-all">
+              set-up GraphQL-based rendering of Agility CMS content in Next.js
+            </span>
+          </p>
+          <p className="mb-4 text-sm text-gray-700">
+            <strong className="text-yellow-600 font-semibold">
               Code Changes:
             </strong>{" "}
             <span className="break-all">
@@ -101,8 +117,8 @@ const nagComponentEmployees = async () => {
                     <td className="px-4 py-3 text-sm font-medium">
                       <span
                         className={`inline-flex items-center rounded-full px-3 py-1 text-xs ${emp.fields.isAccountLocked
-                            ? "bg-red-100 text-red-700"
-                            : "bg-green-100 text-green-700"
+                          ? "bg-red-100 text-red-700"
+                          : "bg-green-100 text-green-700"
                           }`}
                       >
                         {emp.fields.isAccountLocked ? "Yes" : "No"}

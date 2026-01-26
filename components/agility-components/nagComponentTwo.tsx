@@ -30,6 +30,15 @@ const nagComponentTwo = async ({ module, languageCode }: UnloadedModuleProps) =>
           >
             {fields.title}
           </h1>
+          <br></br>
+          <p className="mb-4 text-sm text-gray-700">
+            <strong className="text-yellow-600 font-semibold">
+              Code Changes:
+            </strong>{" "}
+            <span className="break-all">
+              github.com/nponnaganti/cms-nextjs-nag-dev/tree/feature-nag-component-two
+            </span>
+          </p>
 
           {/* Step 06: Render all fields in a table */}
           <div className="mt-8 overflow-x-auto">
